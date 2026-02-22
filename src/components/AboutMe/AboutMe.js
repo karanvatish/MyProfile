@@ -15,7 +15,7 @@ const AboutMe = () => {
                             Renowned for effective cross-functional leadership and stakeholder alignment, expediting project approvals and supporting strategic objectives. Expert in Micro-Frontend (React), Microservices, and Azure, with a strong record of modernizing legacy systems for higher agility and business value.
                         </p>
                         <p>
-                            Successfully architected technical strategies for major M&As, leading to business continuity. My approach combines deep technical expertise with a strategic business mindset to deliver solutions that are not just technically sound but also drive significant business growth.
+                            Successfully architected technical strategies for major M&A's, leading to business continuity. My approach combines deep technical expertise with a strategic business mindset to deliver solutions that are not just technically sound but also drive significant business growth.
                         </p>
                         <div className={styles.stats}>
                             <div className={styles.stat_item}>
@@ -28,7 +28,7 @@ const AboutMe = () => {
                             </div>
                             <div className={styles.stat_item}>
                                 <span className={styles.stat_number}>2</span>
-                                <span className={styles.stat_label}>M&As Led</span>
+                                <span className={styles.stat_label}>Merger & Acqusition</span>
                             </div>
                         </div>
                     </div>

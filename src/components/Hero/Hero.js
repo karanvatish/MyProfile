@@ -7,7 +7,6 @@ const Hero = () => {
     const roles = useMemo(() => [
         "Solution Architect - Digital Customer Experience",
         "Transformation Leader",
-        "Full stack Developer",
         "AI Enthusiast"
     ], []);
 
@@ -53,7 +52,7 @@ const Hero = () => {
                         Accomplished Solution Architect with 13+ years of experience driving digital customer experience and distributed architecture transformations.
                     </p>
                     <div className={styles.actions}>
-                        <a href="#projects" className="btn btn-primary">View Projects</a>
+                        <a href="/assets/Karan Sharma.pdf" download="Karan Sharma.pdf" className="btn btn-primary">Download CV</a>
                         <a href="#contact" className={`${styles.btn_outline} btn`}>Contact Me</a>
                     </div>
                 </div>

@@ -53,8 +53,17 @@
     transition: color 0.2s ease;
 }
 
+.nav_list a.contact_btn {
+    color: #ffffff !important;
+}
+
 .nav_list a:hover {
     color: hsl(var(--primary));
+}
+
+.nav_list a.contact_btn:hover {
+    color: #ffffff !important;
+    opacity: 0.9;
 }
 
 @media (max-width: 768px) {

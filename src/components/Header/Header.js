@@ -28,7 +28,7 @@ const Header = () => {
             <li><a href="#skills">Experience & Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact" className="btn btn-primary">Contact Us</a></li>
+            <li><a href="#contact" className={`btn btn-primary ${styles.contact_btn}`}>Contact Us</a></li>
           </ul>
         </nav>
       </div>
