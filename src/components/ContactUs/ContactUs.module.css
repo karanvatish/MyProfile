@@ -1,0 +1,125 @@
+.contact_section {
+    padding-bottom: 0;
+}
+
+.section_header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: hsl(var(--primary));
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.contact_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+
+.info_title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info_text {
+    color: hsl(var(--muted-foreground));
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.info_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info_item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.info_item h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: hsl(var(--muted-foreground));
+    margin-bottom: 0.25rem;
+}
+
+.info_item p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(var(--primary) / 0.1);
+    color: hsl(var(--primary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.education_card {
+    background-color: hsl(var(--card));
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    border: 1px solid hsl(var(--border));
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+}
+
+.edu_item {
+    margin-bottom: 1.5rem;
+}
+
+.edu_degree {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.edu_uni {
+    font-size: 0.9rem;
+    color: hsl(var(--muted-foreground));
+}
+
+.languages {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid hsl(var(--border));
+}
+
+.footer {
+    background-color: hsl(var(--foreground));
+    color: hsl(var(--background));
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+    .contact_container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}

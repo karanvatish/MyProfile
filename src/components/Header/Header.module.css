@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.scrolled {
+    background-color: hsl(var(--background) / 0.8);
+    backdrop-filter: blur(8px);
+    height: 70px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    border-bottom: 1px solid hsl(var(--border));
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+}
+
+.name {
+    color: hsl(var(--primary));
+}
+
+.surname {
+    color: hsl(var(--foreground));
+    margin-left: 2px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav_list a {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: hsl(var(--muted-foreground));
+    transition: color 0.2s ease;
+}
+
+.nav_list a:hover {
+    color: hsl(var(--primary));
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
